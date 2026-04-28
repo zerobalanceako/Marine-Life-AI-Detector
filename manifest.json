@@ -1,20 +1,25 @@
 {
   "name": "Marine Life AI Detector",
   "short_name": "MarineAI",
+  "description": "AI-powered marine life detection app",
   "start_url": "/Marine-Life-AI-Detector/",
+  "scope": "/Marine-Life-AI-Detector/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "icons": [
     {
       "src": "/Marine-Life-AI-Detector/icon192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/Marine-Life-AI-Detector/icon512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
